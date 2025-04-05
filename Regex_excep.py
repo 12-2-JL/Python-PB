@@ -1,7 +1,7 @@
 import re
 
 try:
-    with open("C:/Users/DELL/Desktop/Cobreo pitoneo/Git/Texton.txt", "r") as file:
+    with open("Texton.txt", "r") as file:
         text=file.read()
 
 except FileNotFoundError:
